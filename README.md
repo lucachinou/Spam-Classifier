@@ -4,7 +4,7 @@ You can try easily by running inference.py file.
 
 Dataset: By me
 Pre Processing: Generating n-grams from the text messages and converting them into a bag of words representation.
-Architecture: A simple neural network with 3 hidden layers and ReLU activation function.
+Architecture: A simple neural network with 1 hidden layers and ReLU activation function.
 Training Method: Supervised training with CrossEntropyLoss loss function and Adam optimizer.
 Used metrics: CrossEntropyLoss
 Limits: *Dataset is small and the model don't classify images.*
