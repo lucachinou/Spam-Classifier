@@ -10,6 +10,8 @@ from torch.utils.data import TensorDataset, DataLoader
 from ngrams.ngrams import generate_ngrams, sentence_to_ngram_bow
 from arch import Model
 
+torch.manual_seed(42)
+
 df = pd.read_csv("data.csv")
 
 sentences = df['content'].tolist()
